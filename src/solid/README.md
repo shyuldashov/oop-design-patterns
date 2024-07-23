@@ -38,6 +38,9 @@
 
 **I**nterface Segregation Principle | Принцип разделения интерфейса
 
+![srp.png](_images/isp.png)
+
+[Source](https://www.oodesign.com/interface-segregation-principle)
 
 ---
 
