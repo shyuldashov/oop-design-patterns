@@ -18,6 +18,7 @@
 - [Принцип открытости/закрытости](src/solid/README.md#ocp)
 - [Принцип подстановки Лисков](src/solid/README.md#lsp)
 - [Принцип разделения интерфейса](src/solid/README.md#isp)
+- [Принцип инверсии зависимостей](src/solid/README.md#dip)
 
 ---
 
