@@ -17,7 +17,7 @@
 - [Принцип единственной ответственности](src/solid/README.md#srp)
 - [Принцип открытости/закрытости](src/solid/README.md#ocp)
 - [Принцип подстановки Лисков](src/solid/README.md#lsp)
-
+- [Принцип разделения интерфейса](src/solid/README.md#isp)
 
 ---
 
@@ -63,6 +63,5 @@
 ---
 
 ## Автор: [Shoxrux Yuldashov](https://github.com/shyuldashov)
-
 
 [^1]: Source [Design Patterns](https://www.oodesign.com/)
