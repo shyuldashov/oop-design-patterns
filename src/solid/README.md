@@ -18,6 +18,9 @@
 
 **O**pen / Closed Principle | Принцип открытости / закрытости
 
+![srp.png](_images/ocp.png)
+
+[Source](https://www.oodesign.com/open-closed-principle)
 
 ---
 
