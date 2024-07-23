@@ -28,6 +28,9 @@
 
 **L**iskov Substitution Principle | Принцип подстановки Лисков
 
+![srp.png](_images/lsp.png)
+
+[Source](https://www.oodesign.com/liskov-s-substitution-principle)
 
 ---
 
