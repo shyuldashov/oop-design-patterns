@@ -47,3 +47,7 @@
 ## DIP
 
 **D**ependency Inversion Principle | Принцип инверсии зависимостей
+
+![srp.png](_images/dip.png)
+
+[Source](https://www.oodesign.com/dependency-inversion-principle)
