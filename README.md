@@ -35,9 +35,9 @@
 
 - [Строитель](src/creational/builder/README.md)
 - [Фабрики](src/creational/factories/README.md)
-- Абстрактная фабрика
-- Фабричный метод
-- Прототип
+  - Абстрактная фабрика
+  - Фабричный метод
+- [Прототип](src/creational/prototype/README.md)
 - Одиночка
 
 ---
