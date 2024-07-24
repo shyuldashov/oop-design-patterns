@@ -52,7 +52,7 @@
     - [Pair](Pair.java)
     - [HotDrink](HotDrink.java)
     - [HotDrinkFactory](HotDrinkFactory.java)
-    - [HotDrinkFactory](HotDrinkFactory.java)
+    - [HotDrinkMachine](HotDrinkMachine.java)
 
 ---
 
