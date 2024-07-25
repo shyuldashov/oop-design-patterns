@@ -31,22 +31,23 @@
 
 - [SimpleSingleton](SimpleSingleton.java)
 - [LazySingleton](LazySingleton.java)
-- [EnumSingleton](EnumSingleton.java)
 - [SyncAccessorSingleton](SyncAccessorSingleton.java)
 - [DoubleCheckedLockingSingleton](DoubleCheckedLockingSingleton.java)
 - [ClassHolderSingleton](ClassHolderSingleton.java)
+- [EnumSingleton](EnumSingleton.java)
 
 ---
 
 ## Заключение
 
-- Различные реализации Одиночки:
-    - Кастомный
-    - Аллокатор
-    - Декоратор
-    - Метакласс
+- Различные реализации `Singleton` (Одиночки):
+    - Simple Solution
+    - Lazy Initialization
+    - Synchronized Accessor
+    - Double-Checked Locking
+    - Class Holder Singleton
+    - Enum Singleton
 - Ленивая реализация – это просто, инициализируем объект только по первому запросу
-- Вариация моносостояния
 - Проблемы с тестируемостью
 
 | За                                                             | Против                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -64,14 +65,14 @@
 
 ---
 
-| № | Реализация             | Ленивая инициализация | Потокобезопасность | Скорость работы при многопоточности | Когда использовать?                                                                                                     |
-|---|------------------------|-----------------------|--------------------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| 1 | Simple Solution        | -                     | +                  | Быстро                              | Никогда. Либо когда не важна ленивая инициализация. Но лучше никогда.                                                   |
-| 2 | Lazy Initialization    | +                     | -                  | Неприменимо                         | Всегда, когда не нужна многопоточность                                                                                  |
-| 3 | Synchronized Accessor  | +                     | +                  | Медленно                            | Никогда. Либо когда скорость работы при многопоточности не имеет значения. Но лучше никогда                             |
-| 4 | Double-Checked Locking | +                     | +                  | Быстро                              | В редких случаях, когда нужно обрабатывать исключения при создании синглтона. (когда неприменим Class Holder Singleton) |
-| 5 | Class Holder Singleton | +                     | +                  | Быстро                              | Всегда, когда нужна многопоточность и есть гарантия, что объект синглтон класса будет создан без проблем.               |
-| 6 | Enum Singleton         | +                     | +                  | Быстро                              | -                                                                                                                       |
+| № | Реализация                                                   | Ленивая инициализация | Потокобезопасность | Скорость работы при многопоточности | Когда использовать?                                                                                                         |
+|---|--------------------------------------------------------------|-----------------------|--------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| 1 | [Simple Solution](SimpleSingleton.java)                      | -                     | +                  | Быстро                              | Никогда. Либо когда не важна ленивая инициализация. Но лучше никогда.                                                       |
+| 2 | [Lazy Initialization](LazySingleton.java)                    | +                     | -                  | Неприменимо                         | Всегда, когда не нужна многопоточность                                                                                      |
+| 3 | [Synchronized Accessor](SyncAccessorSingleton.java)          | +                     | +                  | Медленно                            | Никогда. Либо когда скорость работы при многопоточности не имеет значения. Но лучше никогда.                                |
+| 4 | [Double-Checked Locking](DoubleCheckedLockingSingleton.java) | +                     | +                  | Быстро                              | В редких случаях, когда нужно обрабатывать исключения при создании `Singleton`. (когда неприменим `Class Holder Singleton`) |
+| 5 | [Class Holder Singleton](ClassHolderSingleton.java)          | +                     | +                  | Быстро                              | Всегда, когда нужна многопоточность и есть гарантия, что объект `Singleton` класса будет создан без проблем.                |
+| 6 | [Enum Singleton](EnumSingleton.java)                         | +                     | +                  | Быстро                              | Всегда, когда требуется простая, надежная и безопасная реализация `Singleton` без необходимости наследования.               |
 
 ---
 
@@ -79,3 +80,4 @@
 
 - [Паттерны проектирования: Singleton](https://javarush.com/groups/posts/2365-patternih-proektirovanija-singleton)
 - [Правильный Singleton в Java](https://habr.com/ru/articles/129494/)
+- [Singleton Pattern](https://www.oodesign.com/singleton-pattern)
