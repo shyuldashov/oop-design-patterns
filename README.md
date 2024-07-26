@@ -49,7 +49,7 @@
 > - Подчёркивают важность хорошего дизайна `API`
 
 - [Адаптер](src/structural/adapter/README.md)
-- Мост
+- [Мост](src/structural/bridge/README.md)
 - Компоновщик
 - Декоратор
 - Фасад
