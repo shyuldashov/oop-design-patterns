@@ -54,7 +54,7 @@
 - [Декоратор](/src/structural/decorator/README.md)
 - [Фасад](src/structural/facade/README.md)
 - [Приспособленец](src/structural/flywieght/README.md)
-- Заместитель
+- [Заместитель](src/structural/proxy/README.md)
 
 ---
 
