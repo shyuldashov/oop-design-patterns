@@ -51,7 +51,7 @@
 - [Адаптер](src/structural/adapter/README.md)
 - [Мост](src/structural/bridge/README.md)
 - [Компоновщик](src/structural/composite/README.md)
-- Декоратор
+- [Декоратор](/src/structural/decorator/README.md)
 - Фасад
 - Приспособленец
 - Заместитель
