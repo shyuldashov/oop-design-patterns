@@ -52,7 +52,7 @@
 - [Мост](src/structural/bridge/README.md)
 - [Компоновщик](src/structural/composite/README.md)
 - [Декоратор](/src/structural/decorator/README.md)
-- Фасад
+- [Фасад](src/structural/facade/README.md)
 - Приспособленец
 - Заместитель
 
