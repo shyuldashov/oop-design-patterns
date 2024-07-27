@@ -53,7 +53,7 @@
 - [Компоновщик](src/structural/composite/README.md)
 - [Декоратор](/src/structural/decorator/README.md)
 - [Фасад](src/structural/facade/README.md)
-- Приспособленец
+- [Приспособленец](src/structural/flywieght/README.md)
 - Заместитель
 
 ---
