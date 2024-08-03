@@ -66,7 +66,7 @@
 
 - [Цепочка обязанностей](src/behavioral/chain_of_responsibility/README.md)
 - [Команда](src/behavioral/command/README.md)
-- Интерпретатор
+- [Интерпретатор](src/behavioral/interpreter/README.md)
 - Итератор
 - Посредник
 - Хранитель
