@@ -68,7 +68,7 @@
 - [Команда](src/behavioral/command/README.md)
 - [Интерпретатор](src/behavioral/interpreter/README.md)
 - [Итератор](src/behavioral/iterator/README.md)
-- Посредник
+- [Посредник](src/behavioral/mediator/README.md)
 - Хранитель
 - Наблюдатель
 - Состояние
