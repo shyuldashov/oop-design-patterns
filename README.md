@@ -69,7 +69,7 @@
 - [Интерпретатор](src/behavioral/interpreter/README.md)
 - [Итератор](src/behavioral/iterator/README.md)
 - [Посредник](src/behavioral/mediator/README.md)
-- Хранитель
+- [Хранитель](src/behavioral/memento/README.md)
 - Наблюдатель
 - Состояние
 - Стратегия
