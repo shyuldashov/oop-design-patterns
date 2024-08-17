@@ -70,7 +70,7 @@
 - [Итератор](src/behavioral/iterator/README.md)
 - [Посредник](src/behavioral/mediator/README.md)
 - [Хранитель](src/behavioral/memento/README.md)
-- Наблюдатель
+- [Наблюдатель](src/behavioral/observer/README.md)
 - Состояние
 - Стратегия
 - Шаблонный метод
