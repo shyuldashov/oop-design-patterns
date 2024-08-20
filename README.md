@@ -72,7 +72,7 @@
 - [Хранитель](src/behavioral/memento/README.md)
 - [Наблюдатель](src/behavioral/observer/README.md)
 - [Состояние](src/behavioral/state/README.md)
-- Стратегия
+- [Стратегия](src/behavioral/strategy/README.md)
 - Шаблонный метод
 - Посетитель
 
