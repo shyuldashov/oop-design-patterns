@@ -63,7 +63,6 @@
 > - Все разные: нет единой темы
 > - Решают задачи эффективного и безопасного взаимодействия между объектами программы.
 
-
 - [Цепочка обязанностей](src/behavioral/chain_of_responsibility/README.md)
 - [Команда](src/behavioral/command/README.md)
 - [Интерпретатор](src/behavioral/interpreter/README.md)
@@ -74,7 +73,7 @@
 - [Состояние](src/behavioral/state/README.md)
 - [Стратегия](src/behavioral/strategy/README.md)
 - [Шаблонный метод](src/behavioral/template_method/README.md)
-- Посетитель
+- [Посетитель](src/behavioral/visitor/README.md)
 
 ---
 
