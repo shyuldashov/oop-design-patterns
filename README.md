@@ -73,7 +73,7 @@
 - [Наблюдатель](src/behavioral/observer/README.md)
 - [Состояние](src/behavioral/state/README.md)
 - [Стратегия](src/behavioral/strategy/README.md)
-- Шаблонный метод
+- [Шаблонный метод](src/behavioral/template_method/README.md)
 - Посетитель
 
 ---
